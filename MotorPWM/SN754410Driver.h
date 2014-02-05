@@ -19,6 +19,7 @@ public:
   SN754410_Driver(int hBridgeEnPin, int hBridgeLeg1Pin, int hBridgeLeg2Pin);
   virtual ~SN754410_Driver();
 
+private:
   virtual void updateActors();
 
 private:
